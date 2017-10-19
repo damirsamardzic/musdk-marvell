@@ -1,0 +1,11 @@
+Source: musdk
+Section: devel
+Priority: optional
+Standards-Version: 3.9.4.0
+Build-Depends: debhelper (>= 9), pkg-config, autoconf, automake, gcc, make
+Maintainer: Damir Samardzic <damirsamardzic@yahoo.com>
+
+Package: musdk
+Architecture: arm64
+Depends: linux-headers-4.4.52-171001--mvebu, dkms
+Description: Marvell MUSDK
