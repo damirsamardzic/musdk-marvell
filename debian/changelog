@@ -2,7 +2,7 @@ musdk (4.4.52-171001.10ubuntu3) xenial; urgency=medium
 
   * added dkms.conf 
 
- -- Damir Samardzic <build@0559a0127736>  Mon, 23 Oct 2017 08:29:32 +0000
+ -- Damir Samardzic <damirsamardzic@yahoo.com>  Mon, 23 Oct 2017 08:29:32 +0000
 
 musdk (4.4.52-171001.10ubuntu2) xenial; urgency=medium
 
