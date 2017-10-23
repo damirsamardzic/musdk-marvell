@@ -3,7 +3,7 @@
 #DEB_CONFIGURE_EXTRA_FLAGS += --enable-sam --enable-sam-statistics --enable-sam-debug
 
 override_dh_auto_configure:
-    dh_auto_configure -- --enable-sam --enable-sam-statistics --enable-sam-debug
+	dh_auto_configure -- --enable-sam --enable-sam-statistics --enable-sam-debug
 
 %:
 	dh $@ 
