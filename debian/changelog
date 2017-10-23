@@ -1,3 +1,9 @@
+musdk (4.4.52-171001.10ubuntu4) xenial; urgency=medium
+
+  * configure flags 
+
+ -- Damir Samardzic <damirsamardzic@yahoo.com>  Mon, 23 Oct 2017 09:00:00 +0000
+
 musdk (4.4.52-171001.10ubuntu3) xenial; urgency=medium
 
   * added dkms.conf 
