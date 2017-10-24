@@ -1,3 +1,9 @@
+musdk (4.4.52-171001.10ubuntu10) xenial; urgency=medium
+
+  * depend on kernel headers 
+
+ -- Damir Samardzic <damirsamardzic@yahoo.com>  Tue, 24 Oct 2017 09:57:21 +0000
+
 musdk (4.4.52-171001.10ubuntu9) xenial; urgency=medium
 
   * added modules/Makefile 
