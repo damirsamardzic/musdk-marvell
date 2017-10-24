@@ -1,3 +1,9 @@
+musdk (4.4.52-171001.10ubuntu8) xenial; urgency=medium
+
+  * update rules
+
+ -- Damir Samardzic <damirsamardzic@yahoo.com>  Tue, 24 Oct 2017 08:01:02 +0000
+
 musdk (4.4.52-171001.10ubuntu7) xenial; urgency=medium
 
   * depend on dkms 

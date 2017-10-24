@@ -1,9 +1,13 @@
 #!/usr/bin/make -f
 
-#DEB_CONFIGURE_EXTRA_FLAGS += --enable-sam --enable-sam-statistics --enable-sam-debug
+PKGNAME="musdk"
+VERSION=$(shell grep VERSION debian/musdk.dkms |cut -d= -f 2)
 
 override_dh_auto_configure:
 	dh_auto_configure -- --enable-sam --enable-sam-statistics --enable-sam-debug
+
+override_dh_install:
+	dh_install modules usr/src/$(PKGNAME)-$(VERSION)/
 
 %:
 	dh $@ --with dkms
