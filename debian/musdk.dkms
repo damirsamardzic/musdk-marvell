@@ -1,17 +1,8 @@
 PACKAGE_NAME="musdk"
 PACKAGE_VERSION="0.1"
 
-MAKE[0]="make -C modules/uio KDIR=/lib/modules/${kernelver}/build"
-MAKE[1]="make -C modules/pp2 KDIR=/lib/modules/${kernelver}/build"
-MAKE[2]="make -C modules/sam KDIR=/lib/modules/${kernelver}/build"
-MAKE[3]="make -C modules/dmax2 KDIR=/lib/modules/${kernelver}/build"
-MAKE[4]="make -C modules/neta KDIR=/lib/modules/${kernelver}/build"
-
-CLEAN[0]="make -C modules/uio KDIR=/lib/modules/${kernelver}/build clean"
-CLEAN[1]="make -C modules/pp2 KDIR=/lib/modules/${kernelver}/build clean"
-CLEAN[2]="make -C modules/sam KDIR=/lib/modules/${kernelver}/build clean"
-CLEAN[3]="make -C modules/dmax2 KDIR=/lib/modules/${kernelver}/build clean"
-CLEAN[4]="make -C modules/neta KDIR=/lib/modules/${kernelver}/build clean"
+MAKE="make -C modules KDIR=/lib/modules/${kernelver}/build"
+CLEAN="make -C modules KDIR=/lib/modules/${kernelver}/build clean"
 
 BUILT_MODULE_NAME[0]="musdk_uio"
 BUILT_MODULE_NAME[1]="mv_pp_uio"

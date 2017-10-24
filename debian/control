@@ -7,5 +7,5 @@ Maintainer: Damir Samardzic <damirsamardzic@yahoo.com>
 
 Package: musdk
 Architecture: arm64
-Depends: dkms
+Depends: dkms, ${misc:Depends}
 Description: Marvell MUSDK

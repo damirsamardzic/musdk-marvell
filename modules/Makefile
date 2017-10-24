@@ -1,0 +1,8 @@
+SUBDIRS := uio pp2 sam dmax2 neta
+TOPTARGETS := all clean
+
+$(TOPTARGETS): $(SUBDIRS)
+$(SUBDIRS):
+	$(MAKE) -C $@ $(MAKECMDGOALS)
+
+.PHONY: $(TOPTARGETS) $(SUBDIRS)
