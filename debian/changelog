@@ -1,3 +1,9 @@
+musdk (4.4.52-171001.10ubuntu11) xenial; urgency=medium
+
+  * added enable-bpool-dma=64 
+
+ -- Damir Samardzic <damirsamardzic@yahoo.com>  Thu, 02 Nov 2017 13:47:19 +0000
+
 musdk (4.4.52-171001.10ubuntu10) xenial; urgency=medium
 
   * depend on kernel headers 
