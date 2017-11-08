@@ -1,13 +1,16 @@
 #!/usr/bin/make -f
 
 PKGNAME="musdk"
-VERSION=$(shell grep VERSION debian/musdk.dkms |cut -d= -f 2)
+VERSION=$(shell dpkg-parsechangelog |grep ^Version:|cut -d ' ' -f 2)
 
 override_dh_auto_configure:
 	dh_auto_configure -- --enable-sam --enable-sam-statistics --enable-sam-debug --enable-bpool-dma=64
 
 override_dh_install:
 	dh_install modules usr/src/$(PKGNAME)-$(VERSION)/
+
+override_dh_dkms:
+	dh_dkms -V $(VERSION)
 
 %:
 	dh $@ --with dkms

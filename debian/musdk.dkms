@@ -1,5 +1,5 @@
 PACKAGE_NAME="musdk"
-PACKAGE_VERSION="0.1"
+PACKAGE_VERSION="#MODULE_VERSION#"
 
 MAKE="make -C modules KDIR=/lib/modules/${kernelver}/build"
 CLEAN="make -C modules KDIR=/lib/modules/${kernelver}/build clean"

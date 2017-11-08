@@ -1,3 +1,9 @@
+musdk (4.4.52-171001.10ubuntu12) xenial; urgency=medium
+
+  * updated versioning info 
+
+ -- Damir Samardzic <damirsamardzic@yahoo.com>  Wed, 08 Nov 2017 08:30:21 +0000
+
 musdk (4.4.52-171001.10ubuntu11) xenial; urgency=medium
 
   * added enable-bpool-dma=64 
